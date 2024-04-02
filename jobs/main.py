@@ -112,7 +112,7 @@ def generate_weather_data(device_id, timestamp, location):
         "weather_condition": random.choice(["sunny", "cloudy", "rainy", "snowy"]),
         "precipitation": random.uniform(0, 25),
         "wind_speed": random.uniform(0, 100),
-        "humidity": random.uniform(0, 100),
+        "humidity": random.randint(0, 100),
         "air_quality_index": random.uniform(0, 200),
     }
 
