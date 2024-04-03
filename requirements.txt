@@ -1,5 +1,6 @@
 confluent-kafka==2.3.0
 py4j==0.10.9.7
-pyspark==3.5.1
+pyspark==3.5.0
+pyspark-stubs==3.0.0.post3
 python-dotenv==1.0.1
 simplejson==3.19.2
